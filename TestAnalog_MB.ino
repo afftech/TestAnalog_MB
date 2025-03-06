@@ -11,7 +11,6 @@ int size_data;
 int value[12];
 byte command[8] = { 0x01, 0x04, 0x03, 0xE7, 0x00, 0x0C, 0x00, 0x00 };
 byte response[30] = {};
-bool sent;
 
 int REG = 12;
 int16_t VALUE[12];
